@@ -1,0 +1,67 @@
+
+
+.name{
+    display: inline-block;
+    background-color: dodgerblue;
+    font-family: Helvetica;
+    font-size: 24px;
+    overflow-wrap: break-word;
+    color:white;
+}
+
+@media screen and (max-width:600px){
+    .name{
+        font-size:16px;
+    }
+
+}   
+
+.date{
+    display: flex;
+    font-family: Helvetica;
+
+}
+
+.wraplist{
+    border-radius: 10px;
+    border: solid 3px dodgerblue;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    float:left;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    gap: 10px;
+    margin-right: 20px;
+
+
+
+}
+.wrapdetails{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width:200px;
+}
+
+.mainwrap{
+    justify-content: space-between;
+    width:1000px ;
+    
+}
+
+.wrapexpand{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 100px;
+    width:300px;
+    height:inherit;
+}
+
+.poster{
+    width:200px;
+    height:200px;
+}
